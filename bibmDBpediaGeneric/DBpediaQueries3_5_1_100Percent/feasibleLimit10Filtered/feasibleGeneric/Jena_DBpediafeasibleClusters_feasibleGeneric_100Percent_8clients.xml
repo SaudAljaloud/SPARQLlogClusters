@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<bdsm version="Openlink BIBM Test Driver 0.7.7">
+  <querymix>
+     <date>Fri Oct 09 17:39:39 BST 2015</date>
+     <scalefactor>0.009777899489512895</scalefactor>
+     <exploreEndpoint>http://localhost:3030/BSBM/sparql</exploreEndpoint>
+     <updateEndpoint>http://localhost:3030/BSBM/sparql</updateEndpoint>
+     <usecase>/home/sza1g10/bibmDBpediaGeneric/./queries/feasibleLimit10Filtered/feasibleGeneric</usecase>
+     <drilldown>off</drilldown>
+     <warmups>16</warmups>
+     <nrthreads>8</nrthreads>
+     <seed>9175932</seed>
+     <querymixruns>80</querymixruns>
+     <minquerymixruntime>0.0000</minquerymixruntime>
+     <maxquerymixruntime>0.0000</maxquerymixruntime>
+     <elapsedruntime>0.437</elapsedruntime>
+     <totalruntime>0.000</totalruntime>
+     <qmph>659055.205</qmph>
+     <cqet>0.000</cqet>
+     <cqetg>0.000</cqetg>
+     <aqetg>NaN</aqetg>
+     <throughput>0.000</throughput>
+     <power>NaN</power>
+  </querymix>
+  <queries>
+  </queries>
+</bdsm>

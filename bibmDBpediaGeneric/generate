@@ -1,0 +1,5 @@
+#!/bin/bash
+
+. ${0%/*}/classpath.sh
+
+exec java -Xmx256000M benchmark.generator.Generator "$@"

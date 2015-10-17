@@ -1,0 +1,31 @@
+connect http://localhost:7788/openrdf-sesame.
+create native .
+BSBMRegex
+BSBMRegex
+spoc,posc
+open BSBMRegex .
+load /home/sza1g10/DBpediaDataset/benchmarkDBpedia/infobox_property_definitions_en.nt .
+load /home/sza1g10/DBpediaDataset/benchmarkDBpedia/page_ids_en.nt .
+load /home/sza1g10/DBpediaDataset/benchmarkDBpedia/short_abstracts_en.nt .
+load /home/sza1g10/DBpediaDataset/benchmarkDBpedia/infobox_properties_en.nt .
+load /home/sza1g10/DBpediaDataset/benchmarkDBpedia/instance_types_en.nt .
+load /home/sza1g10/DBpediaDataset/benchmarkDBpedia/labels_en.nt .
+load /home/sza1g10/DBpediaDataset/benchmarkDBpedia/page_links_en.nt .
+load /home/sza1g10/DBpediaDataset/benchmarkDBpedia/persondata_en.nt .
+load /home/sza1g10/DBpediaDataset/benchmarkDBpedia/article_categories_en.nt .
+load /home/sza1g10/DBpediaDataset/benchmarkDBpedia/images_en.nt .
+load /home/sza1g10/DBpediaDataset/benchmarkDBpedia/geo_coordinates_en.nt .
+load /home/sza1g10/DBpediaDataset/benchmarkDBpedia/long_abstracts_en.nt .
+load /home/sza1g10/DBpediaDataset/benchmarkDBpedia/skos_categories_en.nt .
+load /home/sza1g10/DBpediaDataset/benchmarkDBpedia/specific_mappingbased_properties_en.nt .
+load /home/sza1g10/DBpediaDataset/benchmarkDBpedia/disambiguations_en.nt .
+load /home/sza1g10/DBpediaDataset/benchmarkDBpedia/revisions_en.nt .
+load /home/sza1g10/DBpediaDataset/benchmarkDBpedia/external_links_en.nt .
+load /home/sza1g10/DBpediaDataset/benchmarkDBpedia/pnd_en.nt .
+load /home/sza1g10/DBpediaDataset/benchmarkDBpedia/category_labels_en.nt .
+load /home/sza1g10/DBpediaDataset/benchmarkDBpedia/wikipedia_links_en.nt .
+load /home/sza1g10/DBpediaDataset/benchmarkDBpedia/mappingbased_properties_en.nt .
+load /home/sza1g10/DBpediaDataset/benchmarkDBpedia/homepages_en.nt .
+load /home/sza1g10/DBpediaDataset/benchmarkDBpedia/redirects_en.nt .
+exit .
+

@@ -1,0 +1,32 @@
+connect http://localhost:7788/openrdf-sesame.
+create native .
+BSBMRegex
+BSBMRegex
+spoc,posc
+open BSBMRegex .
+load /home/sza1g10/cohernt/IGUANA-develop/dis/datasets/dbpedia/infobox_property_definitions_en.nt .
+load /home/sza1g10/cohernt/IGUANA-develop/dis/datasets/dbpedia/page_ids_en.nt .
+load /home/sza1g10/cohernt/IGUANA-develop/dis/datasets/dbpedia/short_abstracts_en.nt .
+load /home/sza1g10/cohernt/IGUANA-develop/dis/datasets/dbpedia/infobox_properties_en.nt .
+load /home/sza1g10/cohernt/IGUANA-develop/dis/datasets/dbpedia/instance_types_en.nt .
+load /home/sza1g10/cohernt/IGUANA-develop/dis/datasets/dbpedia/labels_en.nt .
+load /home/sza1g10/cohernt/IGUANA-develop/dis/datasets/dbpedia/page_links_en.nt .
+load /home/sza1g10/cohernt/IGUANA-develop/dis/datasets/dbpedia/persondata_en.nt .
+load /home/sza1g10/cohernt/IGUANA-develop/dis/datasets/dbpedia/article_categories_en.nt .
+load /home/sza1g10/cohernt/IGUANA-develop/dis/datasets/dbpedia/images_en.nt .
+load /home/sza1g10/cohernt/IGUANA-develop/dis/datasets/dbpedia/geo_coordinates_en.nt .
+load /home/sza1g10/cohernt/IGUANA-develop/dis/datasets/dbpedia/long_abstracts_en.nt .
+load /home/sza1g10/cohernt/IGUANA-develop/dis/datasets/dbpedia/skos_categories_en.nt .
+load /home/sza1g10/cohernt/IGUANA-develop/dis/datasets/dbpedia/specific_mappingbased_properties_en.nt .
+load /home/sza1g10/cohernt/IGUANA-develop/dis/datasets/dbpedia/disambiguations_en.nt .
+load /home/sza1g10/cohernt/IGUANA-develop/dis/datasets/dbpedia/revisions_en.nt .
+load /home/sza1g10/cohernt/IGUANA-develop/dis/datasets/dbpedia/external_links_en.nt .
+load /home/sza1g10/cohernt/IGUANA-develop/dis/datasets/dbpedia/pnd_en.nt .
+load /home/sza1g10/cohernt/IGUANA-develop/dis/datasets/dbpedia/category_labels_en.nt .
+load /home/sza1g10/cohernt/IGUANA-develop/dis/datasets/dbpedia/wikipedia_links_en.nt .
+load /home/sza1g10/cohernt/IGUANA-develop/dis/datasets/dbpedia/mappingbased_properties_en.nt .
+load /home/sza1g10/cohernt/IGUANA-develop/dis/datasets/dbpedia/homepages_en.nt .
+load /home/sza1g10/cohernt/IGUANA-develop/dis/datasets/dbpedia/redirects_en.nt .
+exit .
+
+
